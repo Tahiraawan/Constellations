@@ -1,8 +1,42 @@
-*{
+* {
     padding: 0;
     margin: 0;
     /* background-color: #06070B; */
 }
-.font-inter{
+
+.font-inter {
     font-family: 'Inter', sans-serif;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.shadow-classic {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15), 0px 0px 3px 0px rgba(0, 0, 0, 0.10);
+
+
+
+}
+
+.button-gradient {
+    background: linear-gradient(277deg, #0E152C 0.67%, rgba(12, 19, 39, 0.00) 104.28%);
+
+
+}
+
+.info-button-gradient {
+    background: linear-gradient(277deg, #689EEE -3.43%, #402DB7 103.43%), #224BBE;
+}
+
+.black-gradient {
+    background: linear-gradient(0deg, #141414 0%, #141414 100%), rgba(255, 255, 255, 0.10);
 }
