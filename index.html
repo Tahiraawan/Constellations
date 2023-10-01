@@ -1,549 +1,1174 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script
+    src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+    type="module"
+  ></script>
 
-<body>
+  <body>
+    <!-- hero section with animation -->
 
-    <section class="w-full bg-left-bottom md:bg-left-top bg-no-repeat bg-cover pb-16 relative"
-        style="background-image: url(/public/images/hero-bg.png);">
-        <!-- header -->
-        <header class="bg-transparent md:mb-12 ">
-            <div class="max-w-[1440px] mx-auto px-5 lg:px-[50px] py-[45px] flex justify-between items-center">
-                <div class="flex items-center">
-                    <img src="/public/images/logo.svg" alt="Logo">
-                    <h2
-                        class="text-white font-inter text-[22.217px] sm:text-[25px] md:text-[27px] lg:text-[30.061px] font-bold leading-normal uppercase">
-                        onstellations</h2>
-                </div>
-                <div class="justify-between gap-x-[64px] hidden md:flex">
-                    <ul
-                        class="text-white font-inter text-base font-medium leading-normal flex gap-x-[64px] justify-center items-center">
-                        <li>what we do</li>
-                        <li>Careers</li>
-                    </ul>
-                    <button
-                        class="flex p-[10px] gap-x-[5px] border border-white rounded-[8px] justify-center items-center">
-                        <span class="text-white font-inter text-base font-bold leading-normal">Contact us</span>
-                        <img src="/public/images/arrow.svg" alt="arrow">
-                    </button>
-                </div>
-                <div class="w-fit block md:hidden">
-                    <img src="/public/images/ci_hamburger-md.png" class="w-8 h-8" />
-                </div>
-            </div>
-        </header>
-        <div class="absolute bottom-[-1400px]  right-0 hidden md:block">
-            <img src="/public/images/hero-sadow.png" />
-        </div>
-        <section class="w-full max-w-[1280px] mx-auto px-5">
-
-            <div class="w-full max-w-[624px] mb-11 md:mb-[100px] lg:mb-[202px]">
-                <div
-                    class="px-3 py-[5px] bg-[#557ef01a] font-inter rounded-[47px] text-[#557EF0] font-bold leading-[28px] w-fit mb-4">
-                    Join the revolution
-                </div>
-                <div class="w-full">
-                    <h1
-                        class="text-[48px] md:text-[80px] font-medium font-inter text-[#E0E5F2] leading-[56px] md:leading-[82px] mb-4">
-                        Empowering the Next Generation of <span class="text-[#557EF0]">Innovators</span>
-                    </h1>
-                    <p class="text-[#A7B1CA] leading-[24px] md:leading-[28px] font-inter text-base pr-20 mb-[30px]">
-                        We strive to illuminate the path for our clients, guiding them through the complex landscape
-                        of
-                        technology with skill and precision.
-                    </p>
-                    <div class="w-full flex items-center gap-x-[30px] mb-">
-                        <button
-                            style="background: linear-gradient(93deg, rgba(255, 255, 255, 0.11) 18%, rgba(255, 255, 255, 0.00) 86.84%), #557EF0;"
-                            class="outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] px-2.5 py-3 flex items-center gap-x-1 font-semibold text-white">
-                            Get in touch
-                            <img src="/public/images/arrow.svg" alt="arrow">
-                        </button>
-                        <div class="flex items-ceneter py-0.5 gap-x-1 text-[#D9DAF0] font-inter font-semibold">
-                            Careers
-                            <img src="/public/images/arrow.svg" alt="arrow">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full relative z-30">
-                <p class="text-[#8993AF] font-inter font-medium leading-[30px] mb-4">
-                    Our trusted partners, <span class="font-bold text-[#557EF0]">the next could be you</span>
-                </p>
-                <section class="w-full overflow-x-scroll hide-scroll">
-                    <div class="w-full flex items-center gap-x-[70px] justify-center">
-                        <img src="/public/images/microsoft.png" alt="microsoft" class="w-[164px]">
-                        <img src="/public/images/uipath.png" alt="uipath" class="w-[129px]">
-                        <img src="/public/images/celonis.png" alt="microsoft" class="w-[127px]">
-                        <img src="/public/images/abby.png" alt="uipath" class="w-[99px]">
-                        <img src="/public/images/microsoft.png" alt="microsoft" class="w-[164px]">
-                        <img src="/public/images/uipath.png" alt="uipath" class="w-[129px]">
-                        <img src="/public/images/celonis.png" alt="microsoft" class="w-[127px]">
-                        <img src="/public/images/abby.png" alt="uipath" class="w-[99px]">
-                    </div>
-                </section>
-            </div>
-
-        </section>
-
-    </section>
-    <section class="w-full bg-[#06070b] pb-[57px] md:pb-[100px] lg:pb-[172px]">
-        <div class="w-full max-w-[1280px] mx-auto px-5 relative z-30">
-            <div class="w-full max-w-[876px] lg:pl-10 mb-2.5 md:mb-12 ">
-                <h2
-                    class="text-[32px] md:text-[64px] font-medium font-inter leading-[40px] md:leading-[72px] text-white mb-3">
-                    Connecting <span class="text-[#557EF0]"> technical expertise </span>technical expertise &
-                    innovative
-                    ideas in the world of <span class="text-[#557EF0]">startups</span>
-                </h2>
-                <p class="text-[#D9DAF0] leading-[24px] md:leading-[28px] font-inter max-w-[624px]">
-                    Constellations propels ideas into the market through strategic guidance, brand cultivation,
-                    design
-                    excellence, and engineering expertise
-                </p>
-            </div>
-            <div class="w-full max-w-[858px] mx-auto">
-                <img src="/public/images/varient-1.png" class="w-full h-auto" />
-            </div>
-        </div>
-    </section>
-
-    <section class="w-full bg-[#06070b] pt-12 pb-[100px] px-5 xl:px-0">
-        <div class="w-full max-w-[1280px] grid grid-cols-12 items-center gap-y-20 gap-x-10 xl:gap-x-[96px] mx-auto ">
-            <div class="col-span-12 lg:col-span-8">
-                <h3
-                    class="text-[28px] lg:text-[56px] text-[#383E55] font-medium leading-[36px] lg:leading-[64px] font-inter">
-                    We are proud to have helped some of the most innovative AI startups launch into success. provided
-                    funding and guidance to companies, a natural language processing platform that has revolutionized
-                    the chatbot industry.
-                </h3>
-            </div>
-            <div class="col-span-12 lg:col-span-4 relative">
-                <div class="absolute top-[-60px] left-0 right-0 ">
-                    <img src="/public//images/help-shadow.png" class="w-full" />
-                </div>
-                <div class="w-full flex flex-col gap-y-4 max-h-[656px] overflow-y-auto hide-scroll ">
-
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12 break-words">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                    <div class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic">
-                        <h5 class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12">
-                            Their team is knowledgeable, professional, and dedicated to their clients' success
-                        </h5>
-                        <div class="w-full flex justify-between items-center">
-                            <div class="flex items-center gap-x-2">
-                                <img src="/public/images/avatar.png" class="w-5 h-5" />
-                                <p class="text-[#626570] text-sm font-inter">
-                                    Mina Rossi
-                                </p>
-                            </div>
-                            <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute bottom-[-60px] w-full ">
-                    <img src="/public//images/help-bottom-shadow.png" class="w-full" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="w-full pt-[100px] pb-10 bg-[#06070b]">
-        <div class="w-full flex items-center justify-center mb-[19px]">
+    <!-- <section class="w-full pb-16 relative">
+      <div
+        class="absolute top-0 left-0 w-full h-full -z-10"
+        style="z-index: -1"
+      >
+        <dotlottie-player
+          src="/earth.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          style="width: 100%; height: 100%"
+        ></dotlottie-player>
+      </div>
+      <header class="md:mb-12 z-999">
+        <div
+          class="max-w-[1440px] mx-auto px-5 lg:px-[50px] py-[45px] flex justify-between items-center"
+        >
+          <div class="flex items-center">
+            <img src="/public/images/logo.svg" alt="Logo" />
+            <h2
+              class="text-white font-inter text-[22.217px] sm:text-[25px] md:text-[27px] lg:text-[30.061px] font-bold leading-normal uppercase"
+            >
+              onstellations
+            </h2>
+          </div>
+          <div class="justify-between gap-x-[64px] hidden md:flex">
+            <ul
+              class="text-white font-inter text-base font-medium leading-normal flex gap-x-[64px] justify-center items-center"
+            >
+              <li>what we do</li>
+              <li>Careers</li>
+            </ul>
             <button
-                class="outline-none focus:outline-none px-6 py-2 button-gradient text-[#CCD8FB] font-inter font-medium rounded-[999px] ">
-                Our Services
+              class="flex p-[10px] gap-x-[5px] border border-white rounded-[8px] justify-center items-center"
+            >
+              <span
+                class="text-white font-inter text-base font-bold leading-normal"
+                >Contact us</span
+              >
+              <img src="/public/images/arrow.svg" alt="arrow" />
             </button>
+          </div>
+
+          <div class="w-fit block md:hidden">
+            <button id="menu-toggle" class="p-2 focus:outline-none">
+              <img
+                src="/public/images/ci_hamburger-md.png"
+                class="w-8 h-8"
+                alt="Menu"
+              />
+            </button>
+          </div>
+
+          <div
+            id="dropdown-menu"
+            class="md:hidden absolute top-0 left-0 w-full h-[200px] bg-black z-10 transition-transform transform translate-x-full"
+          >
+            <ul
+              class="font-inter text-base font-medium leading-normal text-white pt-16 px-5"
+            >
+              <li>What we do</li>
+              <li>Careers</li>
+            </ul>
+            <button
+              id="menu-close"
+              class="absolute top-10 right-5 p-2 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="w-full max-w-[1280px] mx-auto relative">
-            <h1 class="text-[64px] font-medium leading-[72px] text-[#FFF] text-center mb-5">
-                What we <span class="text-[#567EF0]">offer</span>
+      </header>
+
+      <section class="w-full max-w-[1280px] mx-auto px-5">
+        <div class="w-full max-w-[624px] mb-11 md:mb-[100px] lg:mb-[202px]">
+          <div
+            class="px-3 py-[5px] bg-[#557ef01a] font-inter rounded-[47px] text-[#557EF0] font-bold leading-[28px] w-fit mb-4"
+          >
+            Join the revolution
+          </div>
+          <div class="w-full">
+            <h1
+              class="text-[48px] md:text-[80px] font-medium font-inter text-[#E0E5F2] leading-[56px] md:leading-[82px] mb-4"
+            >
+              Empowering the Next Generation of
+              <span class="text-[#557EF0]">Innovators</span>
             </h1>
-            <div class="w-full grid grid-cols-3 gap-x-[94px] pb-11">
-                <div class="w-full">
-                    <h5 class="text-[#FFF] text-[28px] font-medium leading-[44px] mb-2">
-                        Venture Capital Services
-                    </h5>
-                    <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">We provide expert venture capital
-                        services to help AI startups grow and scale their businesses.
-                        Our team of experts has extensive experience in the industry and can offer guidance and support
-                        every step of the way.</p>
-                </div>
-                <div class="w-full">
-                    <h5 class="text-[#FFF] text-[28px] font-medium leading-[44px] mb-2">
-                        Investor Network
-                    </h5>
-                    <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">We provide expert venture capital
-                        services to help AI startups grow and scale their businesses.
-                        Our team of experts has extensive experience in the industry and can offer guidance and support
-                        every step of the way.</p>
-                </div>
-                <div class="w-full">
-                    <h5 class="text-[#FFF] text-[28px] font-medium leading-[44px] mb-2">
-                        Strategic Partnerships
-                    </h5>
-                    <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">We provide expert venture capital
-                        services to help AI startups grow and scale their businesses.
-                        Our team of experts has extensive experience in the industry and can offer guidance and support
-                        every step of the way.</p>
-                </div>
-
+            <p
+              class="text-[#A7B1CA] leading-[24px] md:leading-[28px] font-inter text-base pr-20 mb-[30px]"
+            >
+              We strive to illuminate the path for our clients, guiding them
+              through the complex landscape of technology with skill and
+              precision.
+            </p>
+            <div class="w-full flex items-center gap-x-[30px] mb-">
+              <button
+                style="
+                  background: linear-gradient(
+                      93deg,
+                      rgba(255, 255, 255, 0.11) 18%,
+                      rgba(255, 255, 255, 0) 86.84%
+                    ),
+                    #557ef0;
+                "
+                class="outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] px-2.5 py-3 flex items-center gap-x-1 font-semibold text-white"
+              >
+                Get in touch
+                <img src="/public/images/arrow.svg" alt="arrow" />
+              </button>
+              <div
+                class="flex items-ceneter py-0.5 gap-x-1 text-[#D9DAF0] font-inter font-semibold"
+              >
+                Careers
+                <img src="/public/images/arrow.svg" alt="arrow" />
+              </div>
             </div>
-            <div class="absolute bottom-[-360px] w-fit left-[50%] translate-x-[-50%]">
-                <img src="/public/images/services-spark.png" />
-            </div>
-            <div class="absolute bottom-[-130px] w-fit left-[50%] translate-x-[-50%] z-40">
-                <img src="/public/images/service-icon.png" />
-            </div>
+          </div>
         </div>
-    </section>
-    <section class="bg-[#06070B] w-full pt-[110px] relative z-30 pb-[54px]">
-        <div class="w-full max-w-[1280px] mx-auto">
-
-
-            <div class="w-full max-w-[1096px] mx-auto mb-[62px]">
-                <div class="w-full flex justify-center">
-                    <button
-                        class="p-2.5 info-button-gradient rounded-[8px] font-[#FFF] font-medium font-inter mb-[141px]">
-                        More info
-                    </button>
-
-                </div>
-                <h2 class="text-[#FFF] font-inter text-[64px] font-medium leading-[72px]">
-                    We invest in leaders who are reimagining <span class="text-[#567EF0]">human civilization</span>
-                </h2>
+        <div class="w-full relative z-30">
+          <p class="text-[#8993AF] font-inter font-medium leading-[30px] mb-4">
+            Our trusted partners,
+            <span class="font-bold text-[#557EF0]">the next could be you</span>
+          </p>
+          <section class="w-full overflow-x-scroll hide-scroll">
+            <div class="w-full flex items-center gap-x-[70px] justify-center">
+              <img
+                src="/public/images/microsoft.png"
+                alt="microsoft"
+                class="w-[164px]"
+              />
+              <img
+                src="/public/images/uipath.png"
+                alt="uipath"
+                class="w-[129px]"
+              />
+              <img
+                src="/public/images/celonis.png"
+                alt="microsoft"
+                class="w-[127px]"
+              />
+              <img
+                src="/public/images/abby.png"
+                alt="uipath"
+                class="w-[99px]"
+              />
+              <img
+                src="/public/images/microsoft.png"
+                alt="microsoft"
+                class="w-[164px]"
+              />
+              <img
+                src="/public/images/uipath.png"
+                alt="uipath"
+                class="w-[129px]"
+              />
+              <img
+                src="/public/images/celonis.png"
+                alt="microsoft"
+                class="w-[127px]"
+              />
+              <img
+                src="/public/images/abby.png"
+                alt="uipath"
+                class="w-[99px]"
+              />
             </div>
-            <div class="w-full p-10 info-button-gradient rounded-[16px] relative mb-10">
-                <h4 class="text-[36px] font-bold leading-[44px] font-inter text-white mb-4">
-                    Ambitious teams
-                </h4>
-                <p class="text-[#D8DBEC] font-medium text-[24px] font-inter">On a mission to solve a large scale problem
-                    with an impactful product. A large scale problem is
-                    experienced the world over by many people. An impactful product is embraced by those people and
-                    eventually achieves a significant cumulative improvement in their lives.</p>
-                <div class="absolute top-0 right-0">
-                    <img src="/public/images/tabler_rocket.png" />
-                </div>
-            </div>
-            <div class="grid grid-cols-2 gap-10">
-                <div class="black-gradient shadow-classic p-10 rounded-[16px]">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="url(#paint0_linear_1_48)" stroke-width="5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="paint0_linear_1_48" x1="-13.4069" y1="-0.487243" x2="81.9369"
-                                y2="83.0164" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="white" />
-                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                    <h4 class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4">
-                        Unexpected Perspective
-                    </h4>
-                    <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
-                        Unique insight into an industry and problem, coupled with an uncanny ability to articulate them.
-                        It’s arresting when you hear it, as if the team sees the future.
-                    </p>
-                </div>
-                <div class="black-gradient shadow-classic p-10 rounded-[16px]">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="url(#paint0_linear_1_48)" stroke-width="5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="paint0_linear_1_48" x1="-13.4069" y1="-0.487243" x2="81.9369"
-                                y2="83.0164" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="white" />
-                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                    <h4 class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4">
-                        Unexpected Perspective
-                    </h4>
-                    <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
-                        Unique insight into an industry and problem, coupled with an uncanny ability to articulate them.
-                        It’s arresting when you hear it, as if the team sees the future.
-                    </p>
-                </div>
-                <div class="black-gradient shadow-classic p-10 rounded-[16px]">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="url(#paint0_linear_1_48)" stroke-width="5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="paint0_linear_1_48" x1="-13.4069" y1="-0.487243" x2="81.9369"
-                                y2="83.0164" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="white" />
-                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                    <h4 class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4">
-                        Unexpected Perspective
-                    </h4>
-                    <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
-                        Unique insight into an industry and problem, coupled with an uncanny ability to articulate them.
-                        It’s arresting when you hear it, as if the team sees the future.
-                    </p>
-                </div>
-                <div class="black-gradient shadow-classic p-10 rounded-[16px]">
-                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
-                            stroke="url(#paint0_linear_1_48)" stroke-width="5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="paint0_linear_1_48" x1="-13.4069" y1="-0.487243" x2="81.9369"
-                                y2="83.0164" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="white" />
-                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                    <h4 class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4">
-                        Unexpected Perspective
-                    </h4>
-                    <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
-                        Unique insight into an industry and problem, coupled with an uncanny ability to articulate them.
-                        It’s arresting when you hear it, as if the team sees the future.
-                    </p>
-                </div>
-            </div>
+          </section>
         </div>
+      </section>
+    </section> -->
+    <!-- hero section without animation -->
+
+    <section
+      class="w-full bg-left-bottom md:bg-left-top bg-no-repeat bg-cover pb-16 relative"
+      style="background-image: url(/public/images/hero-bg.png)"
+    >
+      <header class="bg-transparent md:mb-12">
+        <div
+          class="max-w-[1440px] mx-auto px-5 lg:px-[50px] py-[45px] flex justify-between items-center"
+        >
+          <div class="flex items-center">
+            <img src="/public/images/logo.svg" alt="Logo" />
+            <h2
+              class="text-white font-inter text-[22.217px] sm:text-[25px] md:text-[27px] lg:text-[30.061px] font-bold leading-normal uppercase"
+            >
+              onstellations
+            </h2>
+          </div>
+          <div class="justify-between gap-x-[64px] hidden md:flex">
+            <ul
+              class="text-white font-inter text-base font-medium leading-normal flex gap-x-[64px] justify-center items-center"
+            >
+              <li>what we do</li>
+              <li>Careers</li>
+            </ul>
+            <button
+              class="flex p-[10px] gap-x-[5px] border border-white rounded-[8px] justify-center items-center"
+            >
+              <span
+                class="text-white font-inter text-base font-bold leading-normal"
+                >Contact us</span
+              >
+              <img src="/public/images/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+
+          <div class="w-fit block md:hidden">
+            <button id="menu-toggle" class="p-2 focus:outline-none">
+              <img
+                src="/public/images/ci_hamburger-md.png"
+                class="w-8 h-8"
+                alt="Menu"
+              />
+            </button>
+          </div>
+
+          <div
+            id="dropdown-menu"
+            class="md:hidden absolute top-0 left-0 w-full h-[200px] bg-black z-10 transition-transform transform translate-x-full"
+          >
+            <ul
+              class="font-inter text-base font-medium leading-normal text-white pt-16 px-5"
+            >
+              <li>What we do</li>
+              <li>Careers</li>
+            </ul>
+            <button
+              id="menu-close"
+              class="absolute top-10 right-5 p-2 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6 text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <section class="w-full max-w-[1280px] mx-auto px-5">
+        <div class="w-full max-w-[624px] mb-11 md:mb-[100px] lg:mb-[202px]">
+          <div
+            class="px-3 py-[5px] bg-[#557ef01a] font-inter rounded-[47px] text-[#557EF0] font-bold leading-[28px] w-fit mb-4"
+          >
+            Join the revolution
+          </div>
+          <div class="w-full">
+            <h1
+              class="text-[48px] md:text-[80px] font-medium font-inter text-[#E0E5F2] leading-[56px] md:leading-[82px] mb-4"
+            >
+              Empowering the Next Generation of
+              <span class="text-[#557EF0]">Innovators</span>
+            </h1>
+            <p
+              class="text-[#A7B1CA] leading-[24px] md:leading-[28px] font-inter text-base pr-20 mb-[30px]"
+            >
+              We strive to illuminate the path for our clients, guiding them
+              through the complex landscape of technology with skill and
+              precision.
+            </p>
+            <div class="w-full flex items-center gap-x-[30px] mb-">
+              <button
+                style="
+                  background: linear-gradient(
+                      93deg,
+                      rgba(255, 255, 255, 0.11) 18%,
+                      rgba(255, 255, 255, 0) 86.84%
+                    ),
+                    #557ef0;
+                "
+                class="outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] px-2.5 py-3 flex items-center gap-x-1 font-semibold text-white"
+              >
+                Get in touch
+                <img src="/public/images/arrow.svg" alt="arrow" />
+              </button>
+              <div
+                class="flex items-ceneter py-0.5 gap-x-1 text-[#D9DAF0] font-inter font-semibold"
+              >
+                Careers
+                <img src="/public/images/arrow.svg" alt="arrow" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full relative z-30">
+          <p class="text-[#8993AF] font-inter font-medium leading-[30px] mb-4">
+            Our trusted partners,
+            <span class="font-bold text-[#557EF0]">the next could be you</span>
+          </p>
+          <section class="w-full overflow-x-scroll hide-scroll">
+            <div class="w-full flex items-center gap-x-[70px] justify-center">
+              <img
+                src="/public/images/microsoft.png"
+                alt="microsoft"
+                class="w-[164px]"
+              />
+              <img
+                src="/public/images/uipath.png"
+                alt="uipath"
+                class="w-[129px]"
+              />
+              <img
+                src="/public/images/celonis.png"
+                alt="microsoft"
+                class="w-[127px]"
+              />
+              <img
+                src="/public/images/abby.png"
+                alt="uipath"
+                class="w-[99px]"
+              />
+              <img
+                src="/public/images/microsoft.png"
+                alt="microsoft"
+                class="w-[164px]"
+              />
+              <img
+                src="/public/images/uipath.png"
+                alt="uipath"
+                class="w-[129px]"
+              />
+              <img
+                src="/public/images/celonis.png"
+                alt="microsoft"
+                class="w-[127px]"
+              />
+              <img
+                src="/public/images/abby.png"
+                alt="uipath"
+                class="w-[99px]"
+              />
+            </div>
+          </section>
+        </div>
+      </section>
     </section>
-    <section class="w-full bg-[#06070B] pt-[325px] pb-[200px] bg-no-repeat bg-center" style="background-image: url(/public/images/invest-bg.png);">
-        <div class="w-full max-w-[1238px] mx-auto">
+    <section class="w-full bg-[#06070b] md:pb-[100px] py-4 lg:pb-[172px]">
+      <div class="w-full max-w-[1280px] mx-auto px-5 relative z-30">
+        <div class="w-full max-w-[876px] lg:pl-10 mb-2.5 md:mb-12">
+          <h2
+            class="text-[32px] md:text-[64px] font-medium font-inter leading-[40px] md:leading-[72px] text-white mb-3"
+          >
+            Connecting
+            <span class="text-[#557EF0]"> technical expertise </span>technical
+            expertise & innovative ideas in the world of
+            <span class="text-[#557EF0]">startups</span>
+          </h2>
+          <p
+            class="text-[#D9DAF0] leading-[24px] md:leading-[28px] font-inter max-w-[624px]"
+          >
+            Constellations propels ideas into the market through strategic
+            guidance, brand cultivation, design excellence, and engineering
+            expertise
+          </p>
+        </div>
 
+        <div class="w-full max-w-[858px] h-[325px] lg:h-[774px] mx-auto">
+          <dotlottie-player
+            src="/strategy.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+    </section>
 
-            <div class="w-full grid grid-cols-12 gap-7 items-center">
-                <div class="w-full flex justify-center col-span-6">
-                    <h2 class="text-[#FFF] font-inter text-[64px] font-medium leading-[72px]">
-                        Our investments come in <span class="text-[#567EF0]"> two forms</span>
-                    </h2>
-                </div>
-                <div class="w-full flex flex-col gap-10 col-span-6">
-                    <div>
-                        <h5 class="text-[24px] font-medium text-[#FFF] leading-[36px] font-inter mb-3">
-                            Trading time for equity
-                        </h5>
-                        <p class="text-[#8A8A8A] font-medium font-inter">
-                            This is our most common approach for active accounts. It's generally in the form of a
-                            reduced
-                            retainer rate. The concept tends to come up early in conversations. But we rarely do it
-                            until we
-                            have sufficient working experience. That way both sides know it's the right decision.
-                        </p>
+    <section class="w-full bg-[#06070b] pt-12 pb-4 lg:pb-16 px-5 xl:px-0">
+      <div class="w-full max-w-[1280px] mx-auto">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 items-center gap-y-8 gap-x-4 xl:gap-x-10"
+        >
+          <div class="md:col-span-1">
+            <h3
+              class="text-[28px] lg:text-[56px] text-[#383E55] font-medium leading-[36px] lg:leading-[64px] font-inter"
+            >
+              We are proud to have helped some of the most innovative AI
+              startups launch into success. provided funding and guidance to
+              companies, a natural language processing platform that has
+              revolutionized the chatbot industry.
+            </h3>
+          </div>
+          <div class="md:col-span-1 relative">
+            <div class="absolute top-[-60px] left-0 right-0">
+              <img src="/public/images/help-shadow.png" class="w-full" />
+            </div>
+            <div
+              class="w-full flex flex-col gap-y-4 max-h-[656px] overflow-y-auto hide-scroll"
+            >
+              <div
+                class="w-full flex flex-col gap-y-4 max-h-[656px] overflow-y-auto hide-scroll"
+              >
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12 break-words"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
                     </div>
-                    <div>
-                        <h5 class="text-[24px] font-medium text-[#FFF] leading-[36px] font-inter mb-3">
-                            Trading time for equity
-                        </h5>
-                        <p class="text-[#8A8A8A] font-medium font-inter">
-                            This is our most common approach for active accounts. It's generally in the form of a
-                            reduced
-                            retainer rate. The concept tends to come up early in conversations. But we rarely do it
-                            until we
-                            have sufficient working experience. That way both sides know it's the right decision.
-                        </p>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
                     </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-[100px] w-full bg-[#06070B] ">
-        <div class="w-full max-w-[1280px] mx-auto">
-            <div class="w-full max-w-[991px] mx-auto bg-no-repeat bg-center "
-                style="background-image: url(/public/images/team-bg.png);">
-                <h2 class="text-[#FFF] font-inter text-[64px] font-medium leading-[72px] text-center">
-                    Join our <span class="text-[#567EF0]">team</span>
-                </h2>
-                <p class="text-[#8A8A8A] text-[24px] font-inter font-medium text-center mb-12">
-                    We're always on the lookout for passionate individuals to join our team. If you're interested in
-                    working with us and making a difference in the AI industry, we'd love to hear from you. Fill out our
-                    contact form to get in touch.
-                </p>
-                <div class="w-full flex items-center justify-center gap-x-[30px]">
-                    <button
-                        style="background: linear-gradient(93deg, rgba(255, 255, 255, 0.11) 18%, rgba(255, 255, 255, 0.00) 86.84%), #557EF0;"
-                        class="outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] px-2.5 py-3 flex items-center gap-x-1 font-semibold text-white">
-                        Get in touch
-                        <img src="/public/images/arrow.svg" alt="arrow">
-                    </button>
-                    <div class="flex items-ceneter py-0.5 gap-x-1 text-[#D9DAF0] font-inter font-semibold">
-                        Careers
-                        <img src="/public/images/arrow.svg" alt="arrow">
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
                     </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
                 </div>
-                <div class="w-full relative z-30 mt-[71px]">
-                    <section class="w-full overflow-x-scroll hide-scroll">
-                        <div class="w-full flex items-center gap-x-[70px] justify-center">
-                            <img src="/public/images/microsoft.png" alt="microsoft" class="w-[164px]">
-                            <img src="/public/images/uipath.png" alt="uipath" class="w-[129px]">
-                            <img src="/public/images/celonis.png" alt="microsoft" class="w-[127px]">
-                            <img src="/public/images/abby.png" alt="uipath" class="w-[99px]">
-                            <img src="/public/images/microsoft.png" alt="microsoft" class="w-[164px]">
-                            <img src="/public/images/uipath.png" alt="uipath" class="w-[129px]">
-                            <img src="/public/images/celonis.png" alt="microsoft" class="w-[127px]">
-                            <img src="/public/images/abby.png" alt="uipath" class="w-[99px]">
-                        </div>
-                    </section>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
                 </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+                <div
+                  class="w-full p-4 bg-[#ffffff1a] rounded-[16px] shadow-classic"
+                >
+                  <h5
+                    class="text-[#FFF] leading-[24px] font-inter mb-2 xl:pr-12"
+                  >
+                    Their team is knowledgeable, professional, and dedicated to
+                    their clients' success
+                  </h5>
+                  <div class="w-full flex justify-between items-center">
+                    <div class="flex items-center gap-x-2">
+                      <img src="/public/images/avatar.png" class="w-5 h-5" />
+                      <p class="text-[#626570] text-sm font-inter">
+                        Mina Rossi
+                      </p>
+                    </div>
+                    <p class="text-[#626570] text-sm font-inter">12 ore fa</p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="absolute bottom-[-60px] w-full">
+              <img src="/public/images/help-bottom-shadow.png" class="w-full" />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-</body>
+    <section class="w-full pt-[71px] lg:pt-[100px] pb-10 bg-[#06070b]">
+      <div class="w-full flex items-center justify-center mb-3 lg:mb-[19px]">
+        <button
+          class="outline-none focus:outline-none px-6 py-2 button-gradient text-[#CCD8FB] font-inter font-medium rounded-[999px]"
+        >
+          Our Services
+        </button>
+      </div>
+      <div class="w-full max-w-[1280px] px-5 mx-auto relative">
+        <h1
+          class="text-[32px] lg:text-[64px] font-medium leading-[40px] text-center lg:leading-[72px] text-[#FFF] mb-[57px] lg:mb-5"
+        >
+          What we <span class="text-[#567EF0]">offer</span>
+        </h1>
+        <div
+          class="w-full grid lg:grid-cols-3 text-center gap-y-11 gap-x-[94px] pb-[69px]"
+        >
+          <div class="w-full">
+            <h5
+              class="text-[#FFF] text-[20px] lg:text-[28px] leading-[24px] lg:leading-[44px] font-medium mb-2"
+            >
+              Venture Capital Services
+            </h5>
+            <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">
+              We provide expert venture capital services to help AI startups
+              grow and scale their businesses. Our team of experts has extensive
+              experience in the industry and can offer guidance and support
+              every step of the way.
+            </p>
+          </div>
+          <div class="w-full">
+            <h5
+              class="text-[#FFF] font-medium text-[20px] lg:text-[28px] leading-[24px] lg:leading-[44px] mb-2"
+            >
+              Investor Network
+            </h5>
+            <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">
+              We provide expert venture capital services to help AI startups
+              grow and scale their businesses. Our team of experts has extensive
+              experience in the industry and can offer guidance and support
+              every step of the way.
+            </p>
+          </div>
+          <div class="w-full">
+            <h5
+              class="text-[#FFF] text-[20px] lg:text-[28px] leading-[24px] lg:leading-[44px] font-medium mb-2"
+            >
+              Strategic Partnerships
+            </h5>
+            <p class="text-[#AFB6D0] text-[18px] font-inter leading-[28px]">
+              We provide expert venture capital services to help AI startups
+              grow and scale their businesses. Our team of experts has extensive
+              experience in the industry and can offer guidance and support
+              every step of the way.
+            </p>
+          </div>
+        </div>
+        <div
+          class="absolute bottom-[-360px] w-fit left-[50%] translate-x-[-50%]"
+        >
+          <img src="/public/images/services-spark.png" />
+        </div>
+        <div
+          class="absolute bottom-[-130px] w-fit left-[50%] translate-x-[-50%] z-40"
+        >
+          <img src="/public/images/service-icon.png" />
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#06070B] w-full pt-[110px] relative z-30 lg:pb-[54px]">
+      <div class="w-full max-w-[1280px] mx-auto px-5">
+        <div class="w-full max-w-[1096px] mx-auto mb-10 lg:mb-[62px]">
+          <div class="w-full flex justify-center">
+            <button
+              class="w-[161px] p-2.5 info-button-gradient rounded-[8px] font-[#FFF] font-medium font-inter mb-[141px]"
+            >
+              More info
+            </button>
+          </div>
+          <h2
+            class="text-[#FFF] font-inter text-[32px] lg:text-[64px] font-medium leading-10 lg:leading-[72px]"
+          >
+            We invest in leaders who are reimagining
+            <span class="text-[#567EF0]">human civilization</span>
+          </h2>
+        </div>
+        <div
+          class="w-full p-4 lg:p-10 pt-[193px] lg:pt-10 info-button-gradient rounded-[16px] relative mb-10"
+        >
+          <h4
+            class="text-[28px] lg:text-[28px] font-bold leading-[36px] lg:leading-[44px] font-inter text-white mb-4"
+          >
+            Ambitious teams
+          </h4>
+          <p
+            class="text-[#D8DBEC] font-medium text-[24px] font-inter max-w-[955px]"
+          >
+            On a mission to solve a large scale problem with an impactful
+            product. A large scale problem is experienced the world over by many
+            people. An impactful product is embraced by those people and
+            eventually achieves a significant cumulative improvement in their
+            lives.
+          </p>
+          <div class="absolute top-0 right-0">
+            <img
+              src="/public/images/tabler_rocket.png"
+              class="w-[210px] md:w-auto"
+            />
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-10">
+          <div class="black-gradient shadow-classic p-4 lg:p-10 rounded-[16px]">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="black"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="url(#paint0_linear_1_48)"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_48"
+                  x1="-13.4069"
+                  y1="-0.487243"
+                  x2="81.9369"
+                  y2="83.0164"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <h4
+              class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4"
+            >
+              Unexpected Perspective
+            </h4>
+            <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
+              Unique insight into an industry and problem, coupled with an
+              uncanny ability to articulate them. It’s arresting when you hear
+              it, as if the team sees the future.
+            </p>
+          </div>
+          <div class="black-gradient shadow-classic p-4 lg:p-10 rounded-[16px]">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="black"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="url(#paint0_linear_1_48)"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_48"
+                  x1="-13.4069"
+                  y1="-0.487243"
+                  x2="81.9369"
+                  y2="83.0164"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <h4
+              class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4"
+            >
+              Unexpected Perspective
+            </h4>
+            <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
+              Unique insight into an industry and problem, coupled with an
+              uncanny ability to articulate them. It’s arresting when you hear
+              it, as if the team sees the future.
+            </p>
+          </div>
+          <div class="black-gradient shadow-classic p-4 lg:p-10 rounded-[16px]">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="black"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="url(#paint0_linear_1_48)"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_48"
+                  x1="-13.4069"
+                  y1="-0.487243"
+                  x2="81.9369"
+                  y2="83.0164"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <h4
+              class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4"
+            >
+              Unexpected Perspective
+            </h4>
+            <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
+              Unique insight into an industry and problem, coupled with an
+              uncanny ability to articulate them. It’s arresting when you hear
+              it, as if the team sees the future.
+            </p>
+          </div>
+          <div class="black-gradient shadow-classic p-4 lg:p-10 rounded-[16px]">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="black"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M51.8375 20.9335C51.7068 21.7921 51.9948 22.6615 52.6081 23.2748L56.7895 27.4561C58.0428 28.7095 58.6721 30.3548 58.6721 32.0001C58.6721 33.6455 58.0455 35.2881 56.7895 36.5441L52.4935 40.8401C52.2047 41.1286 51.8525 41.3454 51.4649 41.4732C51.0773 41.601 50.6651 41.6363 50.2615 41.5761C49.0081 41.3895 48.1228 40.2961 47.6801 39.1095C47.2917 38.0609 46.6459 37.1268 45.8021 36.3931C44.9582 35.6594 43.9435 35.1497 42.8511 34.9107C41.7587 34.6718 40.6238 34.7114 39.5507 35.0258C38.4776 35.3402 37.5008 35.9194 36.7101 36.7101C35.9194 37.5008 35.3402 38.4776 35.0258 39.5507C34.7114 40.6238 34.6718 41.7587 34.9107 42.8511C35.1497 43.9435 35.6594 44.9582 36.3931 45.8021C37.1268 46.6459 38.0609 47.2917 39.1095 47.6801C40.2988 48.1228 41.3895 49.0055 41.5761 50.2615C41.6365 50.6651 41.6013 51.0773 41.4735 51.465C41.3457 51.8526 41.1287 52.2049 40.8401 52.4935L36.5468 56.7868C35.9505 57.3851 35.2419 57.8597 34.4616 58.1832C33.6813 58.5068 32.8448 58.6729 32.0001 58.6721C31.156 58.6732 30.32 58.5074 29.5402 58.1843C28.7604 57.8612 28.0521 57.3872 27.4561 56.7895L23.2748 52.6081C22.9726 52.3054 22.6036 52.0777 22.1974 51.9434C21.7913 51.8091 21.3593 51.7719 20.9361 51.8348C19.6215 52.0321 18.6961 53.1788 18.2161 54.4161C17.8138 55.4488 17.1604 56.3649 16.3149 57.0815C15.4695 57.7982 14.4587 58.2927 13.3741 58.5204C12.2894 58.7482 11.1651 58.7019 10.1028 58.3858C9.04058 58.0697 8.07389 57.4937 7.2902 56.7101C6.50652 55.9264 5.93058 54.9597 5.61448 53.8974C5.29838 52.8351 5.2521 51.7108 5.47983 50.6262C5.70755 49.5415 6.2021 48.5308 6.91872 47.6853C7.63535 46.8399 8.55144 46.1865 9.58413 45.7841C10.8215 45.3041 11.9681 44.3788 12.1628 43.0641C12.226 42.6412 12.1893 42.2093 12.0554 41.8032C11.9216 41.3971 11.6944 41.0279 11.3921 40.7255L7.2108 36.5441C6.61306 35.9481 6.13902 35.2399 5.81592 34.46C5.49283 33.6802 5.32705 32.8442 5.32813 32.0001C5.32813 30.3548 5.95746 28.7095 7.2108 27.4561L11.2801 23.3868C11.9201 22.7468 12.8295 22.4455 13.7255 22.5788C15.0988 22.7841 16.0641 23.9868 16.5868 25.2721C17.002 26.2901 17.6625 27.1896 18.5095 27.8906C19.3565 28.5915 20.3637 29.072 21.4414 29.2895C22.5191 29.5069 23.6338 29.4544 24.6863 29.1367C25.7388 28.819 26.6964 28.2459 27.4738 27.4685C28.2512 26.6911 28.8243 25.7335 29.142 24.681C29.4597 23.6285 29.5122 22.5138 29.2948 21.4361C29.0774 20.3584 28.5968 19.3512 27.8959 18.5042C27.195 17.6572 26.2955 16.9967 25.2775 16.5815C23.9921 16.0588 22.7895 15.0935 22.5841 13.7201C22.4508 12.8241 22.7495 11.9175 23.3921 11.2748L27.4588 7.20813C28.0547 6.61119 28.7626 6.13783 29.542 5.8152C30.3213 5.49258 31.1567 5.32706 32.0001 5.32813C33.6455 5.32813 35.2908 5.95746 36.5441 7.2108L40.7255 11.3921C41.3388 12.0055 42.2081 12.2935 43.0641 12.1655C44.3788 11.9681 45.3041 10.8215 45.7841 9.58413C46.1865 8.55144 46.8399 7.63535 47.6853 6.91872C48.5308 6.2021 49.5415 5.70755 50.6262 5.47983C51.7108 5.2521 52.8351 5.29838 53.8974 5.61448C54.9597 5.93058 55.9264 6.50652 56.7101 7.2902C57.4937 8.07389 58.0697 9.04058 58.3858 10.1028C58.7019 11.1651 58.7482 12.2894 58.5204 13.3741C58.2927 14.4587 57.7982 15.4695 57.0815 16.3149C56.3649 17.1604 55.4488 17.8138 54.4161 18.2161C53.1788 18.6961 52.0321 19.6188 51.8375 20.9335Z"
+                stroke="url(#paint0_linear_1_48)"
+                stroke-width="5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_48"
+                  x1="-13.4069"
+                  y1="-0.487243"
+                  x2="81.9369"
+                  y2="83.0164"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <h4
+              class="text-[36px] font-bold leading-[44px] text-[#FFF] font-inter py-4"
+            >
+              Unexpected Perspective
+            </h4>
+            <p class="text-[#8A8A8A] text-[24px] font-inter font-medium">
+              Unique insight into an industry and problem, coupled with an
+              uncanny ability to articulate them. It’s arresting when you hear
+              it, as if the team sees the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full bg-[#06070B] pt-[144px] lg:pt-[325px] pb-[132px] lg:pb-[200px] bg-no-repeat bg-center"
+      style="background-image: url(/public/images/invest-bg.png)"
+    >
+      <div class="w-full max-w-[1238px] mx-auto px-5">
+        <div class="w-full grid md:grid-cols-12 gap-7 items-center">
+          <div class="w-full flex justify-center col-span-6">
+            <h2
+              class="text-[#FFF] font-inter text-[32px] lg:text-[64px] font-medium leading-10 lg:leading-[72px]"
+            >
+              Our investments come in
+              <span class="text-[#567EF0]"> two forms</span>
+            </h2>
+          </div>
+          <div class="w-full flex flex-col gap-10 col-span-6">
+            <div>
+              <h5
+                class="text-[24px] font-medium text-[#FFF] leading-[36px] font-inter mb-3"
+              >
+                Trading time for equity
+              </h5>
+              <p class="text-[#8A8A8A] font-medium font-inter">
+                This is our most common approach for active accounts. It's
+                generally in the form of a reduced retainer rate. The concept
+                tends to come up early in conversations. But we rarely do it
+                until we have sufficient working experience. That way both sides
+                know it's the right decision.
+              </p>
+            </div>
+            <div>
+              <h5
+                class="text-[24px] font-medium text-[#FFF] leading-[36px] font-inter mb-3"
+              >
+                Trading time for equity
+              </h5>
+              <p class="text-[#8A8A8A] font-medium font-inter">
+                This is our most common approach for active accounts. It's
+                generally in the form of a reduced retainer rate. The concept
+                tends to come up early in conversations. But we rarely do it
+                until we have sufficient working experience. That way both sides
+                know it's the right decision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lg:pt-[100px] pb-[102px] lg:pb-[219px] w-full bg-[#06070B]">
+      <div class="w-full max-w-[1280px] mx-auto px-5">
+        <div
+          class="w-full max-w-[991px] mx-auto bg-no-repeat bg-center"
+          style="background-image: url(/public/images/team-bg.png)"
+        >
+          <h2
+            class="text-[#FFF] font-inter text-[32px] lg:text-[64px] font-medium leading-10 lg:leading-[72px] mb-3 text-center"
+          >
+            Join our <span class="text-[#567EF0]">team</span>
+          </h2>
+          <p
+            class="text-[#8A8A8A] text-[24px] font-inter font-medium text-center mb-12"
+          >
+            We're always on the lookout for passionate individuals to join our
+            team. If you're interested in working with us and making a
+            difference in the AI industry, we'd love to hear from you. Fill out
+            our contact form to get in touch.
+          </p>
+          <div
+            class="w-full flex flex-col md:flex-row items-center justify-center gap-y-4 gap-x-[30px]"
+          >
+            <button
+              style="
+                background: linear-gradient(
+                    93deg,
+                    rgba(255, 255, 255, 0.11) 18%,
+                    rgba(255, 255, 255, 0) 86.84%
+                  ),
+                  #557ef0;
+              "
+              class="outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] px-2.5 py-3 flex items-center gap-x-1 font-semibold text-white"
+            >
+              Get in touch
+              <img src="/public/images/arrow.svg" alt="arrow" />
+            </button>
+            <div
+              class="flex items-ceneter py-0.5 gap-x-1 text-[#D9DAF0] font-inter font-semibold"
+            >
+              Careers
+              <img src="/public/images/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="w-full relative z-30 mt-[71px]">
+            <section class="w-full overflow-x-scroll hide-scroll">
+              <div class="w-full flex items-center gap-x-[70px] justify-center">
+                <img
+                  src="/public/images/microsoft.png"
+                  alt="microsoft"
+                  class="w-[164px]"
+                />
+                <img
+                  src="/public/images/uipath.png"
+                  alt="uipath"
+                  class="w-[129px]"
+                />
+                <img
+                  src="/public/images/celonis.png"
+                  alt="microsoft"
+                  class="w-[127px]"
+                />
+                <img
+                  src="/public/images/abby.png"
+                  alt="uipath"
+                  class="w-[99px]"
+                />
+                <img
+                  src="/public/images/microsoft.png"
+                  alt="microsoft"
+                  class="w-[164px]"
+                />
+                <img
+                  src="/public/images/uipath.png"
+                  alt="uipath"
+                  class="w-[129px]"
+                />
+                <img
+                  src="/public/images/celonis.png"
+                  alt="microsoft"
+                  class="w-[127px]"
+                />
+                <img
+                  src="/public/images/abby.png"
+                  alt="uipath"
+                  class="w-[99px]"
+                />
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[37px] lg:py-[100px] w-full bg-[#141414] py-16">
+      <div
+        class="max-w-[1236px] mx-auto flex flex-col lg:flex-row justify-between items-center border-[#818181] border-b-[1px] pb-16 px-5 xl:px-0"
+      >
+        <div class="max-w-[830px]">
+          <div class="flex items-center">
+            <img src="/public/images/logo.svg" alt="Logo" />
+            <h2
+              class="text-white font-inter text-[22.217px] sm:text-[25px] md:text-[27px] lg:text-[30.061px] font-bold leading-normal uppercase"
+            >
+              onstellations
+            </h2>
+          </div>
+          <p class="text-[#8A8A8A] text-[24px] font-inter font-medium my-7">
+            We are committed to fostering a diverse and inclusive environment at
+            Constellation. We believe that diverse perspectives lead to better
+            ideas and outcomes, and we strive to create a culture that values
+            and celebrates differences.
+          </p>
+          <div class="flex gap-x-2">
+            <button>
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M32 11.991C31.1174 12.4119 30.1693 12.6963 29.1726 12.8249C30.201 12.1625 30.9704 11.12 31.3373 9.89195C30.371 10.5097 29.3135 10.9445 28.2107 11.1775C27.4691 10.3253 26.4868 9.76035 25.4164 9.57053C24.3459 9.3807 23.2472 9.57658 22.2907 10.1277C21.3343 10.6789 20.5737 11.5545 20.127 12.6186C19.6803 13.6828 19.5725 14.8759 19.8203 16.0127C17.8624 15.9069 15.9471 15.3592 14.1986 14.405C12.4502 13.4509 10.9076 12.1118 9.6711 10.4744C9.2483 11.2595 9.0052 12.1696 9.0052 13.1389C9.00473 14.0115 9.20437 14.8707 9.58641 15.6404C9.96846 16.41 10.5211 17.0662 11.1953 17.5509C10.4134 17.5241 9.64877 17.2967 8.96503 16.8876V16.9558C8.96495 18.1797 9.35827 19.3659 10.0782 20.3132C10.7982 21.2604 11.8005 21.9104 12.915 22.1528C12.1897 22.3641 11.4292 22.3952 10.6911 22.2438C11.0055 23.2969 11.6181 24.2177 12.4429 24.8775C13.2678 25.5372 14.2636 25.9028 15.2911 25.9231C13.5469 27.3969 11.3928 28.1963 9.17537 28.1928C8.78257 28.1929 8.39011 28.1682 8 28.1188C10.2508 29.6765 12.871 30.5032 15.5469 30.5C24.6053 30.5 29.5573 22.4247 29.5573 15.4211C29.5573 15.1936 29.552 14.9638 29.5425 14.7362C30.5057 13.9865 31.3372 13.058 31.9979 11.9944L32 11.991Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button>
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.4482 32V15.8072H8.30353V32H13.4482ZM10.8765 13.5951C12.6706 13.5951 13.7873 12.3517 13.7873 10.7978C13.7538 9.2089 12.6706 8 10.9106 8C9.15079 8 8 9.20893 8 10.7978C8 12.3517 9.11642 13.5951 10.8429 13.5951H10.8765ZM16.2957 32H21.4404V22.9572C21.4404 22.4732 21.4738 21.9898 21.6097 21.6438C21.9816 20.6769 22.8281 19.6754 24.2493 19.6754C26.1109 19.6754 26.8557 21.1603 26.8557 23.3371V31.9999H32V22.7151C32 17.7413 29.4619 15.4271 26.077 15.4271C23.3017 15.4271 22.0831 17.05 21.4062 18.1554H21.4405V15.8069H16.2959C16.3634 17.3263 16.2957 32 16.2957 32Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="w-full">
+          <div
+            class="w-full flex flex-col items-center justify-center gap-[45px] mt-[73px] lg:mt-0"
+          >
+            <button
+              style="
+                background: linear-gradient(
+                    93deg,
+                    rgba(255, 255, 255, 0.11) 18%,
+                    rgba(255, 255, 255, 0) 86.84%
+                  ),
+                  #557ef0;
+              "
+              class="w-full lg:w-fit justify-center outline-none font-inter focus:outline-none cursor-pointer rounded-[8px] p-[15px] flex items-center gap-x-[6px] font-semibold text-white"
+            >
+              Get in touch
+              <img src="/public/images/arrow.svg" alt="arrow" />
+            </button>
+            <div
+              class="flex items-ceneter py-0.5 gap-x-[6px] text-[#D9DAF0] font-inter font-semibold"
+            >
+              Careers
+              <img src="/public/images/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const menuClose = document.getElementById("menu-close");
+      const dropdownMenu = document.getElementById("dropdown-menu");
 
+      menuToggle.addEventListener("click", () => {
+        dropdownMenu.classList.add("translate-x-0");
+      });
+
+      menuClose.addEventListener("click", () => {
+        dropdownMenu.classList.remove("translate-x-0");
+      });
+    </script>
+  </body>
 </html>
