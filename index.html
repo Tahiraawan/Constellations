@@ -242,7 +242,7 @@
           </div>
 
           <div class="w-fit block md:hidden">
-            <button id="menu-toggle" class="p-2 focus:outline-none">
+            <button onclick="myFunction()" class="p-2 focus:outline-none">
               <img
                 src="/public/images/ci_hamburger-md.png"
                 class="w-8 h-8"
@@ -252,8 +252,9 @@
           </div>
 
           <div
-            id="dropdown-menu"
-            class="md:hidden absolute top-0 left-0 w-full h-[200px] bg-black z-10 transition-transform transform translate-x-full"
+            id="myLinks"
+            class="md:hidden absolute top-0 left-0 w-full h-[200px] bg-black z-10"
+            style="display: none"
           >
             <ul
               class="font-inter text-base font-medium leading-normal text-white pt-16 px-5"
@@ -262,7 +263,7 @@
               <li>Careers</li>
             </ul>
             <button
-              id="menu-close"
+              onclick="myFunction()"
               class="absolute top-10 right-5 p-2 focus:outline-none"
             >
               <svg
@@ -293,7 +294,7 @@
           </div>
           <div class="w-full">
             <h1
-              class="text-[48px] md:text-[80px] font-medium font-inter text-[#E0E5F2] leading-[56px] md:leading-[82px] mb-4"
+              class="text-[48px] tracking-[-2.48px] sm:tracking-[-0.48px] md:tracking-normal md:text-[80px] font-medium font-inter text-[#E0E5F2] leading-[56px] md:leading-[82px] mb-4"
             >
               Empowering the Next Generation of
               <span class="text-[#557EF0]">Innovators</span>
@@ -335,7 +336,9 @@
             <span class="font-bold text-[#557EF0]">the next could be you</span>
           </p>
           <section class="w-full overflow-x-scroll hide-scroll">
-            <div class="w-full flex items-center gap-x-[70px] justify-center">
+            <div
+              class="w-full flex items-center gap-x-[48px] md:gap-x-[70px] justify-center"
+            >
               <img
                 src="/public/images/microsoft.png"
                 alt="microsoft"
@@ -1158,17 +1161,25 @@
       </div>
     </section>
     <script>
-      const menuToggle = document.getElementById("menu-toggle");
-      const menuClose = document.getElementById("menu-close");
-      const dropdownMenu = document.getElementById("dropdown-menu");
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      //   const menuToggle = document.getElementById("menu-toggle");
+      //   const menuClose = document.getElementById("menu-close");
+      //   const dropdownMenu = document.getElementById("dropdown-menu");
 
-      menuToggle.addEventListener("click", () => {
-        dropdownMenu.classList.add("translate-x-0");
-      });
+      //   menuToggle.addEventListener("click", () => {
+      //     dropdownMenu.classList.add("translate-x-0");
+      //   });
 
-      menuClose.addEventListener("click", () => {
-        dropdownMenu.classList.remove("translate-x-0");
-      });
+      //   menuClose.addEventListener("click", () => {
+      //     dropdownMenu.classList.remove("translate-x-0");
+      //   });
     </script>
   </body>
 </html>
