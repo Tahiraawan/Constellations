@@ -36,7 +36,7 @@
             onstellations
           </h2>
         </div>
-        <div class="flex justify-between gap-x-[64px]">
+        <div class="hidden md:flex justify-between gap-x-[64px]">
           <ul
             class="text-white font-inter text-base font-medium leading-normal flex gap-x-[64px] justify-center items-center"
           >
@@ -51,6 +51,47 @@
               >Contact us</span
             >
             <img src="/public/images/arrow.svg" alt="arrow" />
+          </button>
+        </div>
+        <div class="w-fit block md:hidden">
+          <button onclick="myFunction()" class="p-2 focus:outline-none">
+            <img
+              src="/public/images/ci_hamburger-md.png"
+              class="w-8 h-8"
+              alt="Menu"
+            />
+          </button>
+        </div>
+
+        <div
+          id="myLinks"
+          class="md:hidden absolute top-0 left-0 w-full h-[200px] bg-black z-10"
+          style="display: none"
+        >
+          <ul
+            class="font-inter text-base font-medium leading-normal text-white pt-16 px-5"
+          >
+            <li>What we do</li>
+            <li>Careers</li>
+          </ul>
+          <button
+            onclick="myFunction()"
+            class="absolute top-10 right-5 p-2 focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 text-white"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
           </button>
         </div>
       </div>
@@ -598,5 +639,15 @@
         </div>
       </div>
     </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
